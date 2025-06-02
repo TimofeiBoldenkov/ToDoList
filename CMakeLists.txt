@@ -17,9 +17,11 @@ set(PROJECT_SOURCES
         todoapp.cpp
         task.cpp
         todolist.cpp
+        todolisthandle.cpp
         todoapp.h
         task.h
         todolist.h
+        todolisthandle.h
         todoapp.ui
 )
 

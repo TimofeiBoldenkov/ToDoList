@@ -1,5 +1,5 @@
-#include "todolist.h"
-#include "./ui_todolist.h"
+#include "todoapp.h"
+#include "./ui_todoapp.h"
 
 ToDoApp::ToDoApp(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::ToDoApp)

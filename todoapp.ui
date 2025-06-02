@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>ToDoList</class>
- <widget class="QMainWindow" name="ToDoList">
+ <class>ToDoApp</class>
+ <widget class="QMainWindow" name="ToDoApp">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -14,7 +14,16 @@
    <string>ToDoList</string>
   </property>
   <widget class="QWidget" name="centralwidget"/>
-  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>

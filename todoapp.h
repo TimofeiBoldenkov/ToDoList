@@ -2,7 +2,7 @@
 #define TODOAPP_H
 
 #include <QMainWindow>
-#include "todolist.h"
+#include "todolisthandle.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class ToDoApp; }
@@ -19,6 +19,6 @@ public:
 private:
     Ui::ToDoApp *ui;
 
-    ToDoList list;
+    ToDoListHandle list;
 };
 #endif // TODOLIST_H
